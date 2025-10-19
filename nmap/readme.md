@@ -65,6 +65,29 @@ O Nmap permite ajustar o ritmo da varredura:
 ### 🔹 Descobrir hosts ativos
 ```bash
 nmap -sn 192.168.0.0/24
+```
+### 🔹 Escanear portas de um host
+```bash
+nmap 192.168.0.10
+```
 
+### 🔹 Detectar sistema operacional e serviços
+```bash
+nmap -A 192.168.0.10
+```
 
+### 🔹 Executar scripts de vulnerabilidade
+```bash
+nmap --script=vuln 192.168.0.10
+```
 
+## ⚠️ Uso Ético e Legal
+
+⚠️ Atenção: o uso do Nmap deve ser sempre ético e autorizado.
+Realizar varreduras em redes sem permissão é considerado atividade ilegal em vários países, incluindo o Brasil (Lei nº 12.737/2012 — Lei Carolina Dieckmann).
+
+## 📚 Referências
+
+[Nmap Official Site](https://nmap.org/)
+[Nmap Documentation](https://nmap.org/book/man.html)
+[Nmap Scripting Engine (NSE)](https://nmap.org/nsedoc/)
