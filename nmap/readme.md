@@ -89,5 +89,7 @@ Realizar varreduras em redes sem permissão é considerado atividade ilegal em v
 ## 📚 Referências
 
 [Nmap Official Site](https://nmap.org/)
+
 [Nmap Documentation](https://nmap.org/book/man.html)
+
 [Nmap Scripting Engine (NSE)](https://nmap.org/nsedoc/)
