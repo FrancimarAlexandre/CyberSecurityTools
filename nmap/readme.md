@@ -44,7 +44,7 @@ Seu principal objetivo é **coletar informações sobre dispositivos conectados*
 | **open** | Há um serviço respondendo na porta. |
 | **closed** | O host respondeu, mas não há serviço ativo. |
 | **filtered** | O tráfego é bloqueado (firewall). |
-| **open|filtered** | O Nmap não conseguiu determinar o estado exato. |
+| **open**|**filtered** | O Nmap não conseguiu determinar o estado exato. |
 
 ---
 
